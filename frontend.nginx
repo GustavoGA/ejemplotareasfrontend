@@ -15,8 +15,8 @@
 server {
     listen 80;
 	listen [::]:80;
-    server_name frontend.alexandercalderon.me;
-    root /home/ubuntu/frontend;
+    server_name frontend.gustavogutierrez.me;
+    root /home/administrador/frontend;
     index index.html;
     location / {
         try_files $uri $uri/ =404;
